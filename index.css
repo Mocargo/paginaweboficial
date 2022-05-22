@@ -1,0 +1,93 @@
+.text-mocargo{
+    color: #FF6200 !important
+}
+
+.btn-moca {
+    background-color:#FF6200 !important ;
+    color: white;
+}
+
+.secundary {
+    background-color: #FFEF77;
+    color: black;
+}
+
+.tertiary {
+    background-color: #2665CB;
+    color: white;
+}
+.btn-moca:hover{
+    background-color:#ff62006c !important  ;
+}
+
+.btn-moca2 {
+    background-color:#EEEEEE !important ;
+    color: black;
+
+}
+
+.btn-moca2:hover{
+    background-color:#01122d57!important  ;
+}
+
+.col{
+    display: flex;
+    justify-content: center !important;
+}
+
+#footer {
+   background: linear-gradient(90deg,#01122D,#01122D 25%,#1e5372); 
+}
+
+#footer a {
+    color: white
+}
+
+#header img{
+    width: 180px;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(10%);
+}
+
+
+#beneficios img{
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white
+}
+
+#carousel .overlay .container, 
+#carousel .overlay .row{
+    height: 100%;
+
+}
+
+#placetime img{
+    max-width: 50%;
+}
+
+#footer img{
+    width: 140px;
+}
+
+.carousel-item {
+    transition: transform 1s ease, opacity .5s ease-out;
+}
