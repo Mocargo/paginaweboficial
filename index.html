@@ -4,34 +4,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel= "stylesheet" href = "index.css">
 </head>
-<body data-spy="scroll" data-target="navbar">
-    <!-- Header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="assets/images/mocargo.png">
-            
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<!-- Header -->
+<body data-spy="scroll" data-bs-target="#navbar-controls" data-offset="0">
+        
+    <nav  id="header"class="navbar navbar-expand-lg cuarto navbar-light bg-light sticky-top">
+        <div class="container-fluid mt-2 mb-2" >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ms-auto"> <!--tirarlo a la derecha o izquierda-->
-              <li class="nav-item"><a class="nav-link" href="#main">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link" href="#main">Transportista</a></li>
-              <li class="nav-item"><a class="nav-link" href="#main">Empresa de transporte</a></li>
-              <li class="nav-item"><a class="nav-link" href="#main">Contáctenos</a></li>
-                <li class="nav-item">
-                  <a class="nav-link  btn btn-success btn-moca" href="#conviertete-en-orador" > Iniciar Sección</a></li>
-            </ul>
-          </div>
+            </button>
+            <div class="row text-center mt-0 mb-0" >
+                <div class="container centrarimg">
+                    <a class="navbar-brand" href="#" ><img src="assets/images/mocargo.png" class="img-responsive"></a>
+                 </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto" > <!--tirarlo a la derecha o izquierda-->
+                    <li class="nav-item"><a class="nav-link" href="#main">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#main">Transportista</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#main">Empresa de transporte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#main">Contáctenos</a></li>
+                    <li class="nav-item"><a class="nav-link  btn btn-success btn-moca" href="#conviertete-en-orador" > Iniciar Sección</a></li>
+                 </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
     <!--como hacer link     <li class="nav-item"><a class="nav-link text-mocargo" 
                 href="#" data-toggle="modal" data-target="#modalCompra">Iniciar Sección</a>
               </li>-->
@@ -75,15 +77,15 @@
         </section>
 
 
-        <section id="beneficios" class="mt-4 ">
-            <div class="container" class="ion-align-items-center">
-                <div class="row">
+        <section id="beneficios" class="mt-4">
+            <div class="container" class="align-items-center">
+                <div class="row" >
                     <div id="col" class="col text-center text-uppercase mt-4 mb-4">
                         <small></small>
                         <h2>Innovando el transporte</h2>
                     </div>
                     <div class="row" >
-                        <div class="col-md-4 mb-4 text-center ">                            
+                        <div class="col-md-4 mb-4 text-center row">                            
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="assets/images/hoja.png"  alt="Card image cap">
                                 <div class="card-body">
@@ -97,7 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-4 text-center ">                            
+                        <div class="col-md-4 mb-4 text-center row ">                            
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="assets/images/iconveh.png"  alt="Card image cap">
                                 <div class="card-body">
@@ -111,7 +113,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-4 text-center ">                            
+                        <div class="col-md-4 mb-4 text-center row">                            
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="assets/images/soporte.png"  alt="Card image cap">
                                 <div class="card-body">

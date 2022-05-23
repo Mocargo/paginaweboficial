@@ -42,9 +42,17 @@
 #footer a {
     color: white
 }
+.container-fluid.mt-2.mb-2 {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-around;
+    
+}
 
 #header img{
     width: 180px;
+
 }
 
 #main .carousel-inner img {
@@ -53,6 +61,17 @@
     filter: grayscale(10%);
 }
 
+#header .centrarimg {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-around;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #beneficios img{
     width: 80px;
