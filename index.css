@@ -8,7 +8,7 @@
 }
 .text-moca:hover{
 
-    color: #8F939B;
+    color: #ffffff;
     text-decoration: unset #FF6200;
     font-weight: bold;
    
@@ -18,7 +18,7 @@
 
 
 #navbar  img{
-    width: 1000px;
+    width: 100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -32,7 +32,7 @@
     overflow-y: auto;
     color: white;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 1px;
 
   }
 
@@ -40,6 +40,14 @@
     background-color:#FF6200 !important ;
     color: white;
     border: white;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
 }
 .btn-moca:hover{
     background-color:#ff62006c !important  ;
@@ -75,7 +83,7 @@
 }
 
 #footer {
-   background: linear-gradient(90deg,#01122D,#01122D 70%,#01122D); 
+   background: linear-gradient(90deg,#01122D,#01122D 10%,#01122D); 
 }
 
 #footer a {
@@ -84,8 +92,8 @@
 
 .container-fluid.mt-2.mb-2 {
     display: flex;
-    flex-wrap: inherit;
     align-items: center;
+    flex-wrap: inherit;
     justify-content: flex-start  !important;}
 
     .container-fluid.mt-2.mb-3 {
@@ -119,8 +127,9 @@
 }
 .row {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    
 }
 
 #beneficios img{
