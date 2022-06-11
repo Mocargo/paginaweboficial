@@ -99,7 +99,7 @@
     display: flex;
     align-items: center;
     flex-wrap: inherit;
-    justify-content: flex-start  !important;}
+    justify-content: space-around  !important;}
 
     .container-fluid.mt-2.mb-3 {
         display: flex;
