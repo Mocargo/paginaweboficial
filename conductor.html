@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel= "stylesheet" href = "index.css">
+</head>
+<!-- Header -->
+
+
+<body  class="fondo" data-spy="scroll" data-bs-target="#navbar-controls" data-offset="0">
+ <div class="container fondo">
+
+     <nav  id="header" class="fondo navbar navbar-expand-lg  navbar-light  sticky-top">
+         <div class="container-fluid mt-2 mb-0 " >
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+             data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+             aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="row text-center mt-3 mb-3 text-center" >
+                 <div class="container">
+                     <a class="navbar-brand " href="#" ><img src="assets/images/generales/mocargo2.svg" class="img-responsive"></a>
+                  </div>
+             </div>
+             <div  class="collapse navbar-collapse" id="navbar">
+                 
+                 <ul class="navbar-nav mx-auto " > <!--tirarlo a la derecha o izquierda-->
+                     <li class="nav-item bt-2"><a class="nav-link text-moca" href="index.html">Inicio</a></li>
+                     <li class="nav-item bt-2"><a class="nav-link text-moca" href="conductor.html">Transportista</a></li>
+                     <li class="nav-item bt-2"><a class="nav-link text-moca" href="empresa.html">Empresa de transporte</a></li>
+                     <li class="nav-item"><a class="nav-link text-moca" href="#main">Contáctenos</a></li>
+                     <li class="nav-item"><a class="col-2" href="#main"></a></li>
+                </ul>
+                <div>
+                     <a class="nav-link   btn btn-success btn-moca mt-0" href="#conviertete-en-orador" > 
+                         Iniciar Sesión</a></li>
+    
+                 </div>
+            </div>
+         </div>
+     </nav>
+ </div>
+   
+    <!--como hacer link     <li class="nav-item"><a class="nav-link text-mocargo" 
+                href="#" data-toggle="modal" data-target="#modalCompra">Iniciar Sección</a>
+              </li>-->
+  
+    
+    <!--Carrusel data-bs-ride="carousel"  class="carousel slide carousel-fade" -->
+    <section id="main">
+        <div id="carousel" class="carousel slide " >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/images/conductor/Conductor.jpg" alt="First slide">
+                    
+                </div>
+                  <div class="carousel-item">
+                      <img class="d-block w-100" src="assets/images/mocargo2.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/images/mocargo4.png" alt="Third slide">
+                </div>
+                  <div class="overlay">
+                      <div class="container">
+                          <div class="row" >
+                              <!--alinear text-center text-md-right" -->
+                              <div class="col-md-12 offset-md-0 text-center text-md-center" >
+                                  <h1 class="display-1 d-none d-md-block" >Descarga nuestra app</h1>
+                                  <h1 class="display-0 d-lg-none " >Descarga nuestra app</h1>
+                                  <p class="d-none d-md-block ">Aplica a ofertas de viajes de forma centralizada</p>
+                                       <br>
+                                        <div class="row">
+
+                                         </div>
+                                </div >
+                                <div class="d-grid gap-2 col-4 mx-auto bt-4">
+                                   <a href="#" class="btn btn-outline-light" 
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#modalCompra"
+                                   >Regístrate</a>
+                                 </div>
+                                                           
+
+                         
+                          </div>
+                      </div>
+
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
+        </section>
+
+
+        <section id="beneficios" class="mt-4 row">
+            <div class="container align-items-center">
+                <div class="row" >
+                    <div id="col" class="col text-center  mt-4 mb-4">
+                        <small></small>
+                        <h1>Innovando el transporte</h1>
+                    </div>
+                    <div class="row" >
+                        <div class="col-md-3 mb-3 text-center row">                            
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/generales/Logo_anticipo.svg"  alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-0">¡Aplica a las diferentes ofertas de viajes !</h5>
+                                    <div class="badges">
+                                        <span class="badge ">Empr. Transporte</span>
+                                        <span class="badge ">Beneficios</span>
+                                    </div>
+                                  <p class="card-text">Únete y podrás conocer en todo momento el estado de los viajes en curso, información en tiempo real y 100% confiable</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3 text-center row">                            
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/generales/Logo_compartir.svg"  alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-0">¡Registra y comparte tú hoja de vida!</h5>
+                                    <div class="badges">
+                                        <span class="badge">Conductor</span>
+                                        <span class="badge">Descargar la App</span>
+                                    </div>
+                                  <p class="card-text">Descarga nuestra App en la 
+                                      playstore y mantén tu hoja de vida actualizada alcance de todas la empresas con las que transportas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3 text-center row ">                            
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/generales/Logo_soat.svg"  alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-0">¡Controla el vencimiento de los documentos!</h5>
+                                    <div class="badges" >
+                                        <span class="badge">Propietario</span>
+                                        <span class="badge">Descarga la App</span>
+                                    </div>
+                                  <p class="card-text">Descarga nuestra App en la 
+                                      playstore registra la información de tú vehículo y lleva el control de tú flota desde cualquier lugar del pais</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3 text-center row">                            
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/generales/Logo_gastos.svg"  alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title mb-0">¡Registra ingresos y gastos!</h5>
+                                    <div class="badges">
+                                        <span class="badge ">Empr. Transpordora</span>
+                                        <span class="badge ">Beneficios</span>
+                                    </div>
+                                  <p class="card-text">Registrate como empresa transportadora para administrar, analizar y gestionar tú operación con los principales KPI
+                                      logisticos </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                        
+            </div>
+        </section>
+
+        <!--Nueva sescion-->
+        <!--
+            <section id="place-time">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 pl-0 pr-0">
+                                    <img src="assets/images/reportes.png" alt="reportes">
+                                </div>
+                                <div class="col pt-2">
+                                    <h2>Conoce nuestros reportes</h2>
+                                    <p>A tráves de nuestra apliación web </p>
+                                    Columna 2
+                                </div>
+                            </div>
+                        </div>
+            </section>
+                    
+
+        -->
+
+          <!--Footer-->
+        <footer id="footer" class="pb-4 pt-4">
+                  <div class="container">
+                    <div class="row text-center">
+               
+                    <div class="col-12- col-lg"></div>
+                    <div class="col-12- col-lg"><a href="assets/images/Terminosycondiciones.pdf" target="_blank">
+                        Términos y condiciones</a></div>
+                    <div class="col-12- col-lg"><a href="assets/images/TratamientoDatos.pdf" target="_blank">Privacidad</a></div>
+                    <div class="col-12- col-lg"><a href="#">Preguntas frecuentes</a></div>
+                    <div class="col-12- col-lg"><a href="#">Contáctenos</a></div>
+                    <div class="col-12- col-lg"><a href="#">Descarga la app</a></div>
+          
+                    </div>
+                  </div>
+            </footer>
+<!--modal popa-->
+<div class="modal fade" id="modalCompra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Registrarse</h5>
+          <button type="button" class="btn-close"
+           data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+                    <!--registrarse-->
+        <section id="registrarse" class="pt-2 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-uppercase text-center">
+                        <small >
+                                                     
+                        </small>
+
+                    </div>
+                </div>
+                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                    <form>
+                        <div class="row">
+                            <div class="mb-1">
+                                <label for="registroempresas" class="form-label">Nombres y apellidos</label>
+                                <input type="text" class="form-control" id="registroempresas" placeholder="Andres Cépeda">
+                            </div>
+                            <div class="mb-1">
+                                <label for="registroempresas" class="form-label">Correo</label>
+                                <input type="text" class="form-control" id="registroempresas" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-1">
+                                <label for="registroempresas" class="form-label">Celular</label>
+                                <input type="text" class="form-control" id="registroempresas" placeholder="3141232323">
+                            </div>
+                            <div class="mb-1">
+                                <label for="registroempresas" class="form-label">Empresa</label>
+                                <input type="text" class="form-control" id="registroempresas" placeholder="Mocargo">
+                            </div>
+                            <div class="form-check mb-1 text-md-right" >
+                                
+                                    <div class="mb-0"><input class="form-check-input text-center" type="checkbox" value="" id="defaultCheck1">
+                                        Al continuar estoy de acuerdo con los términos y condiciones , política de tratamiento de datos personales ver
+                                </div>
+                            </div>
+                        </div>
+                      </form>
+
+                </div>
+            </div>
+
+        </section>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-moca"> <!--para ampliar el botón al 100 utiliza w-100-->
+            <abbr title="Al dar click en enviar acepta nuestra politica de privacidad" data-bs-toggle="tooltip">Cotinuar</abbr>
+         </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script type="module">import {MyTag} from './my-tag.js'; window.customElements.define('my-tag', MyTag);
+ </script>
+  </html>
